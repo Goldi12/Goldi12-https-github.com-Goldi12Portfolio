@@ -59,7 +59,6 @@ padding: 0 18px;
   padding: 7% 15%;
   background-color: #fff;
   position: relative;
-  z-index: 1;
 
 
 }
@@ -195,7 +194,7 @@ padding-bottom: 1%;
 
 /* RESPOSIVE WEBSITES */
 
-@media(max-width: 975px){
+@media(max-width: 1040px){
   .title-image{
     position: static;
 
