@@ -1,0 +1,228 @@
+#title{
+  background-color: #998CEB;
+  color: #B91646;
+
+
+}
+
+.container-fluid {
+  padding: 3% 15%;
+  padding-bottom: 7%;
+
+
+
+}
+
+.small-headline{ color: white;
+font-family: 'Poppins', sans-serif;
+
+
+}
+
+
+
+/* NAVIGATION BAR */
+
+/* 0 for top 0 for left and right 0 for 4.5 for button */
+
+.navbar{
+  padding: 0 0  2rem;
+}
+
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight:  bold;
+  font-size: 2.5rem;
+}
+
+.nav-item{
+padding: 0 18px;
+}
+
+.nav-link{
+  font-family: 'Poppins', san-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.Download-Buttons{
+  margin: 5% 3% 5% 0;
+}
+.title-image{
+  transform: rotate(-5deg);
+    position: absolute;
+}
+
+/* FEATURES */
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+
+
+}
+.feature-box{
+  text-align: center;
+
+}
+
+h3{
+  font-family: 'Poppins', san-serif;
+  font-weight: 700;
+
+}
+p {
+  color: #8f8f8f;
+}
+
+.icon{
+  color: #B983FF;
+  padding: 2% 0 5% 0;
+}
+
+.icon:hover{
+  color:  #998CEB;
+}
+
+/* CARD GALARY SECTION */
+#card-galary{
+  text-align: center;
+}
+
+.PORFOLIO-HEADLINE{
+  font-family: 'Poppins', san-serif;
+  font-weight: 700;
+  padding: 7% 0 7% 0;
+}
+
+.text-rank{
+  text-align: center;
+  padding: 0 2% 0 2%;
+  /* background-color: grey; */
+}
+.control{
+  background-color: #fafafa;
+}
+.h1-number{
+  font-family: 'Poppins',sans-serif;
+  color: #B983FF;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+h5{
+  font-family: 'Poppins',sans-serif;
+  font-size: 15px;
+
+
+}
+
+
+/* TESTIMONIALS SECTION */
+#testimonials{
+
+  text-align: center;
+  background-color:#B983FF;
+  font-family: 'Poppins', sans-serif;
+  color: #B91646;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+h2{
+  font-family: 'Poppins',sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.testimonials-image{
+  width: 150px;
+  border-radius: 100%;
+  /* margin: 20px; */
+  /* margin-left: 15%; */
+  border-style:groove;
+  border-color: white;
+  border-width: 10px;
+
+}
+
+.p-testimonials{
+color: white;
+font-family: 'Poppins', sans-serif;
+padding-top: 2%;
+padding-bottom: 1%;
+
+}
+#press{
+  padding-bottom: 3%;
+  background-color: #B983FF;
+  text-align: center;
+}
+
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+
+}
+
+/* PRICING SECTION */
+#pricing{
+  padding: 100px;
+  text-align: center;
+  font-family: 'Poppins', san-serif;
+
+}
+.webicon{
+  width: 150px;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+  background-color: #FAFAFA;
+}
+.card-color{
+  background-color:#B983FF;
+}
+/* galary-section */
+.galary-pic{
+  width: 200px;
+}
+
+/* RESPOSIVE WEBSITES */
+
+@media(max-width: 975px){
+  .title-image{
+    position: static;
+
+
+  }
+  .text-rank{
+    padding: 5%;
+  }
+
+
+
+  #title{
+    text-align: center;
+  }
+
+}
+
+#cta{
+  background-color: #B983FF;
+  text-align: center;
+  padding: 7% 15%;
+  color: white;
+}
+.fab{
+  color: #B983FF;
+}
+
+.fab:hover{
+  color:  #B91646;
+}
